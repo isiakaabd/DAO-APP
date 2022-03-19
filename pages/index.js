@@ -187,7 +187,7 @@ export default function Home() {
       })
       connectWallet()
     }
-  }, [walletConnected])
+  }, [walletConnected, connectWallet])
 
   return (
     <div>
@@ -208,7 +208,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="/crypto-devs.svg" />
+          <img className={styles.image} alt="image" src="/crypto-devs.svg" />
         </div>
       </div>
 
