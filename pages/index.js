@@ -192,9 +192,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Whitelist Dapp</title>
+        <title>Whitelist Dapp created by Isiaka Abdulahi</title>
         <meta name="description" content="Whitelist-Dapp" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/crypto-devs.svg" />
       </Head>
       <div className={styles.main}>
         <div>
@@ -208,7 +208,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./crypto-devs.svg" />
+          <img className={styles.image} src="/crypto-devs.svg" />
         </div>
       </div>
 
