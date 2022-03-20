@@ -350,7 +350,7 @@ export default function Home() {
       <Head>
         <title>Crypto Devs</title>
         <meta name="description" content="Whitelist-Dapp" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./crypto-devs.svg" />
       </Head>
       <div className={styles.main}>
         <div>
@@ -364,7 +364,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./cryptodevs/0.svg" />
+          <img className={styles.image} src="./crypto-devs.svg" />
         </div>
       </div>
 

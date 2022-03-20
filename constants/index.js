@@ -581,5 +581,4 @@ export const abi = [
     type: 'receive',
   },
 ]
-export const WHITELIST_CONTRACT_ADDRESS =
-  '0x9C83718f59439968ce10a71a4D1a533B29C77015'
+export const NFT_CONTRACT_ADDRESS = '0xf112AAE0F7567f45802226ee6375685849821C0a'
